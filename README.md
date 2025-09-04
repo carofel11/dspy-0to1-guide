@@ -300,6 +300,37 @@ Once you grasp the basics, DSPy offers several advanced features:
 - **Validate outputs.** For tasks requiring structured output, integrate Pydantic or explicit parsing to ensure outputs meet your schema.
 - **Stay up to date.** DSPy evolves rapidly; APIs or module names can change. Always check the release notes before upgrading.
 
+## Working Examples in This Repository
+
+This repository includes complete working implementations of the concepts covered above:
+
+### Basic Examples
+- **[examples/basic/hello_world.py](examples/basic/hello_world.py)** - Simple question answering
+- **[examples/basic/math_qa.py](examples/basic/math_qa.py)** - Mathematical reasoning with validation
+- **[examples/basic/summarizer.py](examples/basic/summarizer.py)** - Document summarization
+
+### Advanced Implementations  
+- **[examples/personas/support_sam.py](examples/personas/support_sam.py)** - Customer support agent with TF-IDF knowledge retrieval
+- **[examples/personas/legal_lucy.py](examples/personas/legal_lucy.py)** - Contract analysis with risk assessment
+- **[examples/advanced/pydantic_validation.py](examples/advanced/pydantic_validation.py)** - Structured outputs with Pydantic validation
+- **[examples/advanced/gepa_optimization.py](examples/advanced/gepa_optimization.py)** - GEPA prompt optimization
+- **[examples/advanced/parallel_execution.py](examples/advanced/parallel_execution.py)** - Parallel processing
+
+### Infrastructure & Monitoring
+- **[examples/infrastructure/prometheus_metrics.py](examples/infrastructure/prometheus_metrics.py)** - Production monitoring with Prometheus
+- **[docker-compose.yml](docker-compose.yml)** - Full deployment stack
+
+### Getting Started
+```bash
+# Install and run examples
+make install
+ollama pull llama3
+python examples/basic/hello_world.py
+python examples/personas/support_sam.py
+```
+
+All examples work with both Ollama (local) and OpenAI models. See **[datasets/](datasets/)** for 31 sample datasets covering QA, classification, and more.
+
 ## Additional Resources & Next Steps
 
 - **Official DSPy documentation:** start at the [Programming Overview](https://dspy.ai/learn/programming/overview/) and explore topics like language models, modules, evaluation and optimization.
