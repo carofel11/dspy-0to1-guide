@@ -62,9 +62,9 @@ docker = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/dspy-0to1-guide"
-Repository = "https://github.com/yourusername/dspy-0to1-guide"
-Documentation = "https://github.com/yourusername/dspy-0to1-guide/tree/main/docs"
+Homepage = "https://github.com/haasonsaas/dspy-0to1-guide"
+Repository = "https://github.com/haasonsaas/dspy-0to1-guide"
+Documentation = "https://github.com/haasonsaas/dspy-0to1-guide/tree/main/docs"
 
 [project.scripts]
 dspy-setup = "scripts.setup:main"
