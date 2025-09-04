@@ -1,0 +1,3 @@
+[console_scripts]
+dspy-evaluate = scripts.evaluate:main
+dspy-setup = scripts.setup:main

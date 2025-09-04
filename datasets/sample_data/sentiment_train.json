@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.034919",
+    "count": 6,
+    "description": "Dataset for sentiment_train"
+  },
+  "data": [
+    {
+      "text": "I absolutely love this product! It exceeded all my expectations and works perfectly.",
+      "sentiment": "positive",
+      "confidence": 0.95
+    },
+    {
+      "text": "Outstanding customer service and amazing product quality! Highly recommend to everyone.",
+      "sentiment": "positive",
+      "confidence": 0.97
+    },
+    {
+      "text": "Disappointed with the purchase. Poor build quality and doesn't work as advertised.",
+      "sentiment": "negative",
+      "confidence": 0.92
+    },
+    {
+      "text": "Fantastic experience from start to finish! Will definitely buy again.",
+      "sentiment": "positive",
+      "confidence": 0.94
+    },
+    {
+      "text": "This is the worst purchase I've ever made. Complete waste of money and terrible quality.",
+      "sentiment": "negative",
+      "confidence": 0.98
+    },
+    {
+      "text": "Not impressed. Expected much better based on reviews. Would not recommend.",
+      "sentiment": "negative",
+      "confidence": 0.89
+    }
+  ]
+}

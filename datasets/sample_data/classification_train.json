@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.035580",
+    "count": 6,
+    "description": "Dataset for classification_train"
+  },
+  "data": [
+    {
+      "text": "Scientists discover new exoplanet that could potentially support life",
+      "category": "science",
+      "subcategory": "astronomy"
+    },
+    {
+      "text": "Breaking: Stock market reaches all-time high as tech companies report strong quarterly earnings",
+      "category": "business",
+      "subcategory": "finance"
+    },
+    {
+      "text": "New artificial intelligence model achieves breakthrough in natural language understanding",
+      "category": "technology",
+      "subcategory": "ai"
+    },
+    {
+      "text": "Celebrity couple announces engagement after two years of dating",
+      "category": "entertainment",
+      "subcategory": "celebrity"
+    },
+    {
+      "text": "Chef opens innovative farm-to-table restaurant featuring local ingredients",
+      "category": "lifestyle",
+      "subcategory": "food"
+    },
+    {
+      "text": "Government announces new climate change initiatives to reduce carbon emissions",
+      "category": "politics",
+      "subcategory": "environment"
+    }
+  ]
+}

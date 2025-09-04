@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.035962",
+    "count": 1,
+    "description": "Dataset for summarization_test"
+  },
+  "data": [
+    {
+      "document": "Climate change represents one of the most pressing challenges of our time. Global temperatures have risen \n            by approximately 1.1 degrees Celsius since the late 19th century, primarily due to human activities such \n            as burning fossil fuels and deforestation. The impacts are already visible: melting ice caps, rising sea \n            levels, extreme weather events, and disruptions to ecosystems. The Intergovernmental Panel on Climate \n            Change (IPCC) warns that limiting warming to 1.5\u00b0C requires rapid and far-reaching transitions in energy, \n            land, urban infrastructure, and industrial systems. Solutions include renewable energy adoption, energy \n            efficiency improvements, carbon pricing, and international cooperation through agreements like the Paris \n            Climate Accord.",
+      "summary": "Climate change, driven by human activities, requires urgent action including renewable energy adoption and international cooperation to limit global warming.",
+      "key_points": [
+        "Global temperatures have risen 1.1\u00b0C since the 19th century",
+        "Human activities are the primary cause",
+        "Visible impacts include melting ice caps and extreme weather",
+        "IPCC warns rapid transitions are needed",
+        "Solutions include renewable energy and international cooperation"
+      ]
+    }
+  ]
+}

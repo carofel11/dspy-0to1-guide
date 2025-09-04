@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.036122",
+    "count": 8,
+    "description": "Dataset for dspy_sentiment_examples"
+  },
+  "data": [
+    {
+      "text": "I absolutely love this product! It exceeded all my expectations and works perfectly.",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Outstanding customer service and amazing product quality! Highly recommend to everyone.",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Disappointed with the purchase. Poor build quality and doesn't work as advertised.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Fantastic experience from start to finish! Will definitely buy again.",
+      "sentiment": "positive"
+    },
+    {
+      "text": "This is the worst purchase I've ever made. Complete waste of money and terrible quality.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Not impressed. Expected much better based on reviews. Would not recommend.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "The product is okay, nothing special but it does what it's supposed to do.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Average product with standard features. Price seems reasonable for what you get.",
+      "sentiment": "neutral"
+    }
+  ]
+}

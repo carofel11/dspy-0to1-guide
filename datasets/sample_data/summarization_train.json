@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.035887",
+    "count": 1,
+    "description": "Dataset for summarization_train"
+  },
+  "data": [
+    {
+      "document": "Artificial intelligence (AI) has become increasingly prevalent in modern society, transforming industries \n            from healthcare to transportation. Machine learning, a subset of AI, enables computers to learn from data \n            without explicit programming. Deep learning, which uses neural networks with multiple layers, has achieved \n            remarkable breakthroughs in image recognition, natural language processing, and game playing. Companies \n            are investing billions of dollars in AI research and development, while governments are creating policies \n            to regulate its use. Despite the benefits, concerns about job displacement, privacy, and algorithmic bias \n            remain significant challenges that society must address.",
+      "summary": "AI and machine learning are transforming industries with significant investment, but concerns about job displacement and bias need addressing.",
+      "key_points": [
+        "AI is transforming multiple industries",
+        "Machine learning enables computers to learn from data",
+        "Deep learning has achieved breakthroughs in various domains",
+        "Massive investment in AI R&D",
+        "Concerns about job displacement and bias exist"
+      ]
+    }
+  ]
+}

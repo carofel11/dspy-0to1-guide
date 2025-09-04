@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.035331",
+    "count": 1,
+    "description": "Dataset for math_test"
+  },
+  "data": [
+    {
+      "problem": "Tom saves $50 per month for 8 months. How much money has he saved in total?",
+      "answer": 400,
+      "solution_steps": [
+        "Monthly savings: $50",
+        "Total: $50 \u00d7 8 = $400"
+      ],
+      "category": "multiplication"
+    }
+  ]
+}

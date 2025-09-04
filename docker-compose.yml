@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  dspy-guide:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dspy-0to1-guide
+    ports:
+      - "8000:8000"  # Prometheus metrics
+      - "8080:8080"  # Application server
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DSPY_CACHE_DIR=/app/.dspy_cache
+      - PROMETHEUS_PORT=8000
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./.dspy_cache:/app/.dspy_cache
+    depends_on:
+      - prometheus
+      - grafana
+    networks:
+      - dspy-network
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: dspy-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./examples/infrastructure/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention.time=200h'
+      - '--web.enable-lifecycle'
+    networks:
+      - dspy-network
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: dspy-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./examples/infrastructure/grafana/dashboards:/etc/grafana/provisioning/dashboards
+      - ./examples/infrastructure/grafana/datasources:/etc/grafana/provisioning/datasources
+    networks:
+      - dspy-network
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: dspy-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    networks:
+      - dspy-network
+
+volumes:
+  prometheus-data:
+  grafana-data:
+  ollama-data:
+
+networks:
+  dspy-network:
+    driver: bridge

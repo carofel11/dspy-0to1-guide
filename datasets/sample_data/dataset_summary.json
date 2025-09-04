@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.036292",
+    "count": 5,
+    "description": "Dataset for dataset_summary"
+  },
+  "data": {
+    "total_datasets": 5,
+    "total_examples": 31,
+    "datasets": {
+      "qa": {
+        "count": 8,
+        "description": "Qa dataset for DSPy training and evaluation"
+      },
+      "sentiment": {
+        "count": 8,
+        "description": "Sentiment dataset for DSPy training and evaluation"
+      },
+      "math": {
+        "count": 5,
+        "description": "Math dataset for DSPy training and evaluation"
+      },
+      "classification": {
+        "count": 8,
+        "description": "Classification dataset for DSPy training and evaluation"
+      },
+      "summarization": {
+        "count": 2,
+        "description": "Summarization dataset for DSPy training and evaluation"
+      }
+    },
+    "formats_created": [
+      "JSON",
+      "JSONL",
+      "Train/Test splits",
+      "DSPy Examples"
+    ],
+    "created_at": "2025-09-03T20:50:34.036240"
+  }
+}

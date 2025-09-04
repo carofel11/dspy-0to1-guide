@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.034659",
+    "count": 2,
+    "description": "Dataset for qa_test"
+  },
+  "data": [
+    {
+      "question": "What is machine learning?",
+      "answer": "Machine learning is a subset of artificial intelligence that enables computers to learn and make decisions from data without explicit programming.",
+      "category": "AI/ML",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is cloud computing?",
+      "answer": "Cloud computing is the delivery of computing services including servers, storage, databases, networking, software, analytics, and intelligence over the internet.",
+      "category": "Technology",
+      "difficulty": "beginner"
+    }
+  ]
+}

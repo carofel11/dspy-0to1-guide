@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.034560",
+    "count": 6,
+    "description": "Dataset for qa_train"
+  },
+  "data": [
+    {
+      "question": "What is the difference between supervised and unsupervised learning?",
+      "answer": "Supervised learning uses labeled training data to learn patterns, while unsupervised learning finds hidden patterns in unlabeled data without specific target outputs.",
+      "category": "AI/ML",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does a neural network work?",
+      "answer": "A neural network is a computational model inspired by biological neural networks. It consists of interconnected nodes (neurons) that process information through weighted connections and activation functions.",
+      "category": "AI/ML",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "category": "Geography",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Who invented the telephone?",
+      "answer": "Alexander Graham Bell",
+      "category": "History",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is photosynthesis?",
+      "answer": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce oxygen and energy in the form of sugar.",
+      "category": "Science",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does blockchain technology work?",
+      "answer": "Blockchain is a distributed ledger technology that maintains a continuously growing list of records (blocks) that are linked and secured using cryptography.",
+      "category": "Technology",
+      "difficulty": "intermediate"
+    }
+  ]
+}

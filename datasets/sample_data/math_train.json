@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.035238",
+    "count": 4,
+    "description": "Dataset for math_train"
+  },
+  "data": [
+    {
+      "problem": "Sarah has 24 apples. She gives 8 apples to her friend and then buys 15 more. How many apples does she have now?",
+      "answer": 31,
+      "solution_steps": [
+        "Start: 24 apples",
+        "Give away: 24 - 8 = 16 apples",
+        "Buy more: 16 + 15 = 31 apples"
+      ],
+      "category": "arithmetic"
+    },
+    {
+      "problem": "A store sells shirts for $25 each. If John buys 3 shirts and pays with a $100 bill, how much change should he receive?",
+      "answer": 25,
+      "solution_steps": [
+        "Cost: 3 \u00d7 $25 = $75",
+        "Change: $100 - $75 = $25"
+      ],
+      "category": "arithmetic"
+    },
+    {
+      "problem": "Lisa runs 2.5 miles every day for 6 days. How many total miles does she run?",
+      "answer": 15.0,
+      "solution_steps": [
+        "Daily distance: 2.5 miles",
+        "Total: 2.5 \u00d7 6 = 15.0 miles"
+      ],
+      "category": "multiplication"
+    },
+    {
+      "problem": "A rectangular garden is 12 feet long and 8 feet wide. What is its area in square feet?",
+      "answer": 96,
+      "solution_steps": [
+        "Area = length \u00d7 width",
+        "Area = 12 \u00d7 8 = 96 square feet"
+      ],
+      "category": "geometry"
+    }
+  ]
+}

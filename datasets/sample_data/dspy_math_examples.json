@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.036206",
+    "count": 5,
+    "description": "Dataset for dspy_math_examples"
+  },
+  "data": [
+    {
+      "problem": "Sarah has 24 apples. She gives 8 apples to her friend and then buys 15 more. How many apples does she have now?",
+      "answer": 31
+    },
+    {
+      "problem": "A store sells shirts for $25 each. If John buys 3 shirts and pays with a $100 bill, how much change should he receive?",
+      "answer": 25
+    },
+    {
+      "problem": "Lisa runs 2.5 miles every day for 6 days. How many total miles does she run?",
+      "answer": 15.0
+    },
+    {
+      "problem": "A rectangular garden is 12 feet long and 8 feet wide. What is its area in square feet?",
+      "answer": 96
+    },
+    {
+      "problem": "Tom saves $50 per month for 8 months. How much money has he saved in total?",
+      "answer": 400
+    }
+  ]
+}

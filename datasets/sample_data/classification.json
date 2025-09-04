@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "created": "2025-09-03T20:50:34.035415",
+    "count": 8,
+    "description": "Dataset for classification"
+  },
+  "data": [
+    {
+      "text": "Breaking: Stock market reaches all-time high as tech companies report strong quarterly earnings",
+      "category": "business",
+      "subcategory": "finance"
+    },
+    {
+      "text": "New study reveals that regular exercise can reduce the risk of heart disease by up to 30%",
+      "category": "health",
+      "subcategory": "research"
+    },
+    {
+      "text": "Scientists discover new exoplanet that could potentially support life",
+      "category": "science",
+      "subcategory": "astronomy"
+    },
+    {
+      "text": "Local high school wins state championship in basketball after undefeated season",
+      "category": "sports",
+      "subcategory": "basketball"
+    },
+    {
+      "text": "New artificial intelligence model achieves breakthrough in natural language understanding",
+      "category": "technology",
+      "subcategory": "ai"
+    },
+    {
+      "text": "Celebrity couple announces engagement after two years of dating",
+      "category": "entertainment",
+      "subcategory": "celebrity"
+    },
+    {
+      "text": "Government announces new climate change initiatives to reduce carbon emissions",
+      "category": "politics",
+      "subcategory": "environment"
+    },
+    {
+      "text": "Chef opens innovative farm-to-table restaurant featuring local ingredients",
+      "category": "lifestyle",
+      "subcategory": "food"
+    }
+  ]
+}
